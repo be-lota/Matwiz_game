@@ -1,0 +1,139 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f4f4f4; /* Light grey background */
+    color: #f7f5f5; /* Dark text for readability */
+    line-height: 1.6;
+}
+
+/* Background image and page setup */
+body {
+    background-image: url("../Mathwiz_game/about.jpg"); /* Background image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Fixed background while scrolling */
+}
+
+/* Page container for better alignment and design */
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #8ca6c3;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1d0c67;
+    color: #fff;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+footer nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+}
+
+footer nav a:hover {
+    color: #007BFF; /* Hover effect */
+    text-decoration: underline;
+}
+
+footer p {
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+/* Form Styles (for Contact page) */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form label {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+form input,
+form textarea {
+    padding: 15px;
+    font-size: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    width: 100%;
+}
+
+form input:focus,
+form textarea:focus {
+    outline: none;
+    border-color: #007BFF;
+    background-color: #fff;
+}
+
+form button {
+    padding: 15px 25px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(133, 186, 186, 0.2); /* Transparent blue */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: rgba(135, 165, 165, 0.1); /* Full opacity on hover */
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        background-size: cover;
+    }
+
+    .container {
+        padding: 20px;
+        margin: 20px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    footer {
+        padding: 15px;
+    }
+}

@@ -16,8 +16,15 @@
   z-index: -1; /* Keeps video behind content */
 }
 
-/* Body Styles */
 body {
+  background-image: url("../images/about.jpg"); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center; 
+    color: #fff; 
+    font-family: Arial, sans-serif;
+
   font-family: 'Arial', sans-serif;
   color: #18a3c5;
   display: flex;
@@ -25,7 +32,7 @@ body {
   align-items:center;
   text-align:inherit;
   justify-content:flex-end;
-  height: 75vh;
+  height: 85vh;
   overflow: hidden;
 }
 
@@ -115,4 +122,12 @@ p {
 
 .difficulty-btn:active {
   background-color: rgba(29, 139, 193, 0.8);
+}
+footer nav a {
+  color: #007BFF; /* Change to your desired color */
+  text-decoration: none; /* Optional: removes underline */
+}
+
+footer nav a:hover {
+  color: #9bbde2; /* Optional: color change on hover */
 }
